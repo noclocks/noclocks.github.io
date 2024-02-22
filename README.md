@@ -9,3 +9,9 @@
 ***
 
 [![Deploy GitHub Pages](https://github.com/noclocks/noclocks.github.io/actions/workflows/ghpages.yml/badge.svg)](https://github.com/noclocks/noclocks.github.io/actions/workflows/ghpages.yml)
+
+***
+
+## Notes
+
+- See https://docs.github.com/en/pages/quickstart for documentation and reference.
