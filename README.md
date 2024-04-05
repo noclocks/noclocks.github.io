@@ -9,7 +9,7 @@
 ***
 
 [![Deploy GitHub Pages](https://github.com/noclocks/noclocks.github.io/actions/workflows/ghpages.yml/badge.svg)](https://github.com/noclocks/noclocks.github.io/actions/workflows/ghpages.yml)
-
+[![GitHub Pages Deployment](https://github.com/noclocks/noclocks.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/noclocks/noclocks.github.io/actions/workflows/pages/pages-build-deployment)
 ***
 
 ## Notes
