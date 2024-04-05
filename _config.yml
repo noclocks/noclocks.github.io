@@ -1,0 +1,8 @@
+plugins:
+  - jekyll-analytics
+
+jekyll_analytics:
+  Plausible:
+    domain: 'docs.noclocks.dev'
+    source: 'https://plausible.io/js/script.js'
+    
