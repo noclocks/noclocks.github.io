@@ -1,4 +1,4 @@
-exclude: ['.github', 'Gemfile', 'Gemfile.lock', 'techstack.yml', 'github.md', 'techstack.md', 'LICENSE'] 
+#exclude: ['.github', 'Gemfile', 'Gemfile.lock', 'techstack.yml', 'github.md', 'techstack.md', 'LICENSE'] 
 
 #plugins:
 #  - jekyll-analytics
