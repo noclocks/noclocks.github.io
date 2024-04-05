@@ -1,8 +1,9 @@
-plugins:
-  - jekyll-analytics
+exclude: ['.github', 'Gemfile', 'Gemfile.lock', 'techstack.yml', 'github.md', 'techstack.md', 'LICENSE'] 
 
-jekyll_analytics:
-  Plausible:
-    domain: 'docs.noclocks.dev'
-    source: 'https://plausible.io/js/script.js'
-    
+#plugins:
+#  - jekyll-analytics
+
+#jekyll_analytics:
+#  Plausible:
+#    domain: 'docs.noclocks.dev'
+#    source: 'https://plausible.io/js/script.js'
