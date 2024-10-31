@@ -1,0 +1,94 @@
+site_name: No Clocks Github Pages
+site_description: No Clocks Documentation Root GitHub Page
+site_url: https://docs.noclocks.dev
+
+repo_url: https://github.com/noclocks/noclocks.github.io
+repo_name: noclocks/noclocks.github.io
+edit_uri: edit/main/docs/
+
+copyright: Copyright &copy; 2024 No Clocks, LLC
+
+plugins:
+  - search
+
+docs_dir: docs
+
+theme:
+  name: terminal  # noqa: E999
+  palette: dark   # noqa: E999
+  # custom_dir: overrides
+  features:
+    - footer.prev_next
+    - navigation.side.indexes
+    - revision.date
+    - revision.history
+    - style.links.underline.hide
+
+extra:
+  analytics:
+    provider: plausible
+    domain: docs.noclocks.dev
+    source: https://plausible.io/js/script.js
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: good
+          note: >-
+            Thanks for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: bad
+          note: >-
+            Thanks for your feedback! Help us improve this page by
+            using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/noclocks
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/noclocksdev
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/company/noclocks
+    - icon: fontawesome/brands/youtube
+      link: https://youtube.com/noclocks
+    - icon: fontawesome/brands/facebook
+      link: https://facebook.com/noclocksdev
+    - icon: fontawesome/brands/slack
+      link: https://noclocks.slack.com
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/noclocksdev
+    - icon: fontawesome/brands/docker
+      link: https://hub.docker.com/u/noclocks
+
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - tables
+
+extra_css:
+  - assets/css/styles.css
+  - assets/css/highlight.min.css
+  - assets/css/dmvendor.css
+
+extra_javascript:
+  - assets/js/highlight.min.js
+  - assets/js/custom.js
+
+nav:
+  - Home: index.md
+  - About:
+    - 'About Us': about.md
+    - 'Contact Us': contact.md
+  - Support: support.md
+  - 'Terms of Service': terms.md
+  - 'Privacy Policy': privacy.md
+  - 'Sitemap': sitemap.md
